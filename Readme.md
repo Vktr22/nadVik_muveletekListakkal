@@ -34,13 +34,13 @@ Készíts 3 szűrés mezőt, amiben kiválasztott mezők alapján szűrheted az 
 
 ## Alkalmazott függvények
 ### publikus felület
-- **divOsszeallit**
-- **divMegjelenit**
+- **divOsszeallit(termekLista) -> txt** -> összeállítja a kis kártyákat
+- **divMegjelenit(txt) -> nincs** -> megjeleníti a txt-t egy html elemben
 - **kosarba (termekLista) -> kosarLista** -> amikor megnyomja a termékeknél a kicsi kosár gombot, beteszi a terméket a kosár listába
 - **tablazatOsszeallit (kosarLista) -> txt** -> ha rányom a kosár tartalmára fent, akk betölti a kosarTartalma.html-t, ahol táblázat formájában látja a vevő, a sor végén lesz egy kis kuka, amivel lehet a sort törölni
-- **megjelenit (txt) -> nincs** - megjeleniti a txt-t egy html elemben
+- **megjelenit (txt) -> nincs** -> megjeleniti a txt-t egy html elemben
 - **kosarTorol(kosarLista) -> üres kosarLista** -> a kosarTartalma.html-en lesz egy nagy kuka, ahol az összes terméket lehet törölni a kosárból. Eltűnik a táblázat, előjön egy ilyen szöveg, hogy "nincs termék a kosárban"
-- **megrendeles(kosarLista, megrendelte(bool))**
+MOST EZ NEM KELL(- megrendeles(kosarLista, megrendelte(bool)) )
 
 ### admin felulet
 ---ADMINT MOST HAGYJUK
