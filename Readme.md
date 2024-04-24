@@ -27,10 +27,11 @@ Készíts 3 szűrés mezőt, amiben kiválasztott mezők alapján szűrheted az 
 
 ## file-ok
 - index.html -> a publikus oldal drótváza, hívja a style.css-t, valamint main.js-t.
-- admin.html -> az admin felület drótváza, hívja a style.css-t, valamint main.js-t.
 - style.css -> css + bootstrap, az oldal kinézete/stílusa
 - main.js -> hívja a többi .js-file-t.
 - adatLista.js -> Tárolja az objektum listákat: termekLista, kosarLista
+- fuggvenyek.js -> tárolja a függvényeket
+
 
 ## Alkalmazott függvények
 ### publikus felület
