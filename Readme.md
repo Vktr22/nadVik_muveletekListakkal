@@ -36,12 +36,17 @@ Készíts 3 szűrés mezőt, amiben kiválasztott mezők alapján szűrheted az 
 ## Alkalmazott függvények
 ### publikus felület
 - **divOsszeallit(termekLista) -> txt** -> összeállítja a kis kártyákat
-- **divMegjelenit(txt) -> nincs** -> megjeleníti a txt-t egy html elemben
-- **kosarba (termekLista) -> kosarLista** -> amikor megnyomja a termékeknél a kicsi kosár gombot, beteszi a terméket a kosár listába
+- **megjelenit(txt,elem) -> nincs** -> megjeleníti a txt-t egy html elemben
+- **kosarba (termekLista) -> kosarLista[]** -> amikor megnyomja a termékeknél a kicsi kosár gombot, beteszi a terméket a kosár listába
 - **tablazatOsszeallit (kosarLista) -> txt** -> ha rányom a kosár tartalmára fent, akk betölti a kosarTartalma.html-t, ahol táblázat formájában látja a vevő, a sor végén lesz egy kis kuka, amivel lehet a sort törölni
-- **megjelenit (txt) -> nincs** -> megjeleniti a txt-t egy html elemben
-- **kosarTorol(kosarLista) -> üres kosarLista** -> a kosarTartalma.html-en lesz egy nagy kuka, ahol az összes terméket lehet törölni a kosárból. Eltűnik a táblázat, előjön egy ilyen szöveg, hogy "nincs termék a kosárban"
+///////////////- **megjelenit (txt) -> nincs** -> megjeleniti a txt-t egy html elemben
+- **kosarTorol(kosarLista) -> üres kosarLista[]** -> a kosarTartalma.html-en lesz egy nagy kuka, ahol az összes terméket lehet törölni a kosárból. Eltűnik a táblázat, előjön egy ilyen szöveg, hogy "nincs termék a kosárban"
 MOST EZ NEM KELL(- megrendeles(kosarLista, megrendelte(bool)) )
+- 3.pont->**kereses(termekLista) -> termekLista[i]** -> keresési lehetőség a publikus felületen, a termékek nevei/jellemzői alapján, vagyis az oldal betölti azt/azokat a termékeket, amelyek-ben (in object) szerepel az a kifejezés/szó.
+    ????? az oldal minden leütött karakternél frissüljön, vagy csak akkor, ha rányomunk a keresés gombr? ill. legördülőben hozza fel inkább közben a találatokat, és minden betű leütéssel frissüljön, aztán rákattintva töltse be az oldal?
+//////////////- 4.pont->**termekekRendez(novekvoArszerintList[], csokkenoArszerintList[]) ->**
+- **segedRendezNovekvo(termekLista) -> novekvoArszerintList[]** -> ár szerint növekvő sorrendbe rakja a termékeket
+- **segedRendezCsokkeno(termekLista) -> csokkenoArszerintList[]** -> ár szerint csökkenő sorrendbe rakja a termékeket
 
 ### admin felulet
 ---ADMINT MOST HAGYJUK
