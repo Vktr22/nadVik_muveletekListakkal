@@ -38,7 +38,7 @@ Készíts 3 szűrés mezőt, amiben kiválasztott mezők alapján szűrheted az 
 
 ## Alkalmazott függvények
 ### publikus felület
-- **divOsszeallit(termekLista) -> txt** -> összeállítja a kis kártyákat
+-   **divOsszeallit(termekLista) -> txt** -> összeállítja a kis kártyákat
 - **megjelenit(txt,elem) -> nincs** -> megjeleníti a txt-t egy html elemben
 - **kosarba (termekLista) -> kosarLista[]** -> amikor megnyomja a termékeknél a kicsi kosár gombot, beteszi a terméket a kosár listába
 - **tablazatOsszeallit (kosarLista) -> txt** -> ha rányom a kosár tartalmára fent, akk betölti a kosarTartalma.html-t, ------ ne külön html-ben, oldal sávban!!!-------ahol táblázat formájában látja a vevő, a sor végén lesz egy kis kuka, amivel lehet a sort törölni
